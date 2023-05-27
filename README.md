@@ -2,8 +2,13 @@
 
 This is a package of simple react components that work with Kaltura.
 
-- `/lib/components` - the components
-- `/testapp` - a simple test app that embeds the components for local testing of the package
+## To install
+
+```bash
+npm i @chieftroublemaker/simple-kaltura-react-components
+```
+
+Then you can include the components in your React app.
 
 ## The components in the package
 
@@ -11,6 +16,11 @@ This is a package of simple react components that work with Kaltura.
 - PlayersGallery - A gallery of Kaltura Players utilizing simple divs and the Player component. You can use CSS to style and order the gallery.
 - SearchResultsWithGallery - Simple view for displaying search results with an integrated Kaltura Players gallery and interactive search sentences.
 - EmbeddedKalturaSearchView - Embedded Kaltura search view with an input search query, and summarized search answer with interactive sentences and Kaltura Players.
+
+## Dev env
+
+- `/lib/components` - the components
+- `/testapp` - a simple test app that embeds the components for local testing of the package
 
 ## Setting up the dev env
 
