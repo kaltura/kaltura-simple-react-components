@@ -1,6 +1,6 @@
 {
-  "name": "@kaltura/simple-react-components",
-  "version": "1.0.0",
+  "name": "@chieftroublemaker/simple-kaltura-react-components",
+  "version": "0.8.0-alpha",
   "description": "Simple ReactJS Components with Kaltura Super Powers",
   "keywords": [
     "kaltura",
@@ -17,6 +17,9 @@
   },
   "author": "Kaltura",
   "license": "AGPL-3.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
