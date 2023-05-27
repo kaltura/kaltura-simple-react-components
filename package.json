@@ -12,7 +12,7 @@
   "main": "./lib/index.js",
   "scripts": {
     "start": "webpack --mode development --watch",
-    "build": "webpack --mode production",
+    "build": "webpack --mode production --config webpack.prod.config.js",
     "dev": "concurrently \"npm run start\" \"cd testapp && npm run start\""
   },
   "author": "Kaltura",

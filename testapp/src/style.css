@@ -105,7 +105,8 @@
   opacity: 0;
   max-height: 0;
   border-radius: 5px;
-  transition: visibility 850ms ease-out, opacity 850ms ease-out, max-height 1s linear;
+  transition: visibility 850ms ease-out, opacity 850ms ease-out,
+    max-height 1s linear;
   color: #282828;
   background-color: #41bdff71;
   margin-left: 15px;
@@ -116,7 +117,8 @@
   visibility: visible;
   opacity: 1;
   max-height: 200px;
-  transition: visibility 200ms ease-out, opacity 250ms ease-out, max-height 50ms linear;
+  transition: visibility 200ms ease-out, opacity 250ms ease-out,
+    max-height 50ms linear;
 }
 .react_kaltura_search_results_sentence_expanded_content::before {
   content: open-quote;
