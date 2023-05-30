@@ -1,6 +1,6 @@
+import { EmbeddedKalturaSearchView } from "@kaltura/simple-react-components";
 import React from "react";
 import "./style.css";
-import { EmbeddedKalturaSearchView } from "@kaltura/simple-react-components";
 
 function App() {
   return (
@@ -11,13 +11,14 @@ function App() {
       <EmbeddedKalturaSearchView
         playerIdTemplate="kaltura_player"
         kalturaServiceUrl={"https://cdnapi-ev.kaltura.com"}
+        searchApiUrl="http://localhost:8001/search"
         partnerId={4776232}
         uiConfId={52664812}
         startInAutoPlay={false}
         shouldPlayOnHover={true}
         preLoad="auto"
         startingVolume={1}
-        ks="djJ8NDc3NjIzMnydgqsvGqcYLPcGUeI3vWZFFHcN9Cq0PYyfUzNOTOgbLtYiOVUZ8gp1W0rW1tnL7aKRyKpkEHEYx5I-wtjLMnfIU9SD0WXtiG5yJa4qTjP_soLHDFeBHJfm0XsLgzTo2lc="
+        ks="djJ8NDc3NjIzMnxWcgFy4N0TZxQJyKTcuEK5PqwVzCV2PRzx5QA38oZpdhwB7BmkCSWdkFCRuFi5TeS-FbygEfu6F83Zu19l2so1xrzP84SP6_mUj_PMtRygivaozvlFslmgpIXClcMH7ZVXCZWp0Se4c1W0MI7oAt-BdKg9AGICL_2ngoLb5H7yaQ=="
       />
     </div>
   );
