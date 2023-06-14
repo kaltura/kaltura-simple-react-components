@@ -102,25 +102,28 @@
  }
 .react_kaltura_search_results_sentence_expanded_content {
   visibility: collapse;
+  position: absolute;
   opacity: 0;
   max-height: 0;
+  max-width: 500px;
   border-radius: 5px;
   transition: visibility 850ms ease-out, opacity 850ms ease-out,
     max-height 1s linear;
   color: #282828;
-  background-color: #41bdff71;
+  background-color: #7ccffb;
   margin-left: 15px;
   font-style: italic;
+  padding: 15px;
 }
-
 .react_kaltura_search_results_sentence_highlighted
   .react_kaltura_search_results_sentence_expanded_content {
   visibility: visible;
   opacity: 1;
-  max-height: 200px;
+  max-height: 300px;
+  max-width: 500px;
   transition: visibility 200ms ease-out, opacity 250ms ease-out,
     max-height 50ms linear;
-} */
+} 
 .react_kaltura_search_results_sentence_expanded_content::before {
   content: open-quote;
   position: relative;

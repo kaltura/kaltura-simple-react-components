@@ -59,6 +59,7 @@ export const PlayersGallery: React.FC<PlayersGalleryProps>;
 
 export interface SearchResultsWithGalleryProps {
   searchQuery: string; // what text should be searched in Kaltura using the AI search API?
+  searchApiBearerToken?: string; // the bearer token for using the AI search API, defaults to: ''
   isSearching: boolean; // if true will start fetching new data, if false will not render the results yet
   setIsSearching?: (searching: boolean) => void; // function to set isSearching state in parent component
   kalturaServiceUrl?: string; // the URL to access the Kaltura service on, defaults to: https://cdnapi-ev.kaltura.com
@@ -77,6 +78,7 @@ export const SearchResultsWithGallery: React.FC<SearchResultsWithGalleryProps>;
 export interface EmbeddedKalturaSearchViewProps {
   kalturaServiceUrl?: string; // the URL to access the Kaltura service on, defaults to: https://cdnapi-ev.kaltura.com
   searchApiUrl?: string; // the URL to use for making the search API call, defaults to: http://localhost/search_api_mock.json
+  searchApiBearerToken?: string; // the bearer token for using the AI search API, defaults to: ''
   partnerId: number; // the Kaltura account id (KMC>Integration Settings>Partner ID)
   uiConfId: number; // the Kaltura Player instance id (KMC>Studio)
   ks: string; // the Kaltura Session to pass when rendering the Kaltura Video Players
