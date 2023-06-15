@@ -5,6 +5,7 @@ build
 dist
 testapp/build
 testapp/dist
+config.json
 
 # Logs
 logs

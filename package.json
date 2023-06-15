@@ -1,6 +1,6 @@
 {
   "name": "@chieftroublemaker/simple-kaltura-react-components",
-  "version": "0.8.1-alpha",
+  "version": "0.8.3-alpha",
   "description": "Simple ReactJS Components with Kaltura Super Powers",
   "keywords": [
     "kaltura",
@@ -41,7 +41,7 @@
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.8.8",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "style-loader": "^3.3.3",
     "uuid": "^9.0.0",
     "webpack": "^5.84.1",
