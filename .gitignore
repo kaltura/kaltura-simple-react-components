@@ -1,5 +1,11 @@
 # .gitignore
 
+#build/dist folders
+build
+dist
+testapp/build
+testapp/dist
+
 # Logs
 logs
 *.log

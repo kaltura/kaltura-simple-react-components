@@ -13,6 +13,7 @@
   "scripts": {
     "start": "webpack --mode development --watch",
     "build": "webpack --mode production --config webpack.prod.config.js",
+    "build_both": "concurrently \"npm run build\" \"cd testapp && npm run build\"",
     "dev": "concurrently \"npm run start\" \"cd testapp && npm run start\""
   },
   "author": "Kaltura",
@@ -28,9 +29,9 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.22.0",
+    "@babel/core": "^7.22.5",
     "@babel/preset-env": "^7.22.0",
-    "@babel/preset-react": "^7.22.0",
+    "@babel/preset-react": "^7.22.5",
     "babel-loader": "^9.1.2",
     "clean-webpack-plugin": "^4.0.0",
     "concurrently": "^8.0.1",

@@ -1,0 +1,13 @@
+{
+    "playerIdTemplate": "kaltura_player",
+    "kalturaServiceUrl": "https://cdnapi-ev.kaltura.com",
+    "searchApiUrl": "https://aiservices.kaltura.com/search",
+    "searchApiBearerToken": "your-special-token",
+    "partnerId": 100000,
+    "uiConfId": 100000,
+    "startInAutoPlay": false,
+    "shouldPlayOnHover": true,
+    "preLoad": "auto",
+    "startingVolume": 1,
+    "ks": "your-kaltura-account-playback-session-KS"
+}

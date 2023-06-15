@@ -29,7 +29,9 @@ module.exports = {
       },
     ],
   },
-  plugins: [new MiniCssExtractPlugin()],
+  plugins: [
+    new MiniCssExtractPlugin()
+  ],
   // Removed the watch: true line
   resolve: {
     extensions: [".js", ".jsx"],
