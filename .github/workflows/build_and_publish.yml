@@ -22,15 +22,15 @@ jobs:
       run: npm ci
 
     - name: Run build
-      run: npm run build_both
+      run: npm run build # build just the components library
 
     - name: Publish to npm
       run: npm publish
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
-    - name: Deploy to GitHub Pages
-      uses: JamesIves/github-pages-deploy-action@v4.4.2
-      with:
-        folder: testapp/dist
-        branch: pages
+    #- name: Deploy to GitHub Pages
+    #  uses: JamesIves/github-pages-deploy-action@v4.4.2
+    #  with:
+    #    folder: testapp/dist
+    #    branch: pages
