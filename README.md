@@ -30,6 +30,8 @@ Then you can include the components in your React app.
 - `cd testapp`
 - `npm link @kaltura/simple-react-components` - this will link the local lib to the test project.
 - `npm install`
+- `cp testapp/src/config.json.template testapp/src/config.json`
+- edit [config.json](/testapp/src/config.json.template) and update to your Kaltura credentials and settings
 
 > To remove the local link run:
 > `npm unlink @kaltura/simple-react-components`
@@ -38,6 +40,14 @@ Then you can include the components in your React app.
 
 From the root dir, run: `npm run dev`.
 This will build the components into ./dist and `testapp` into ./build , start the dev server for testapp, and then open the browser on localhost:9000.
+
+## To build both the test app and library
+
+From the root dir, run: `npm run build_both`.
+
+## To build just the components library
+
+From the root dir, run: `npm run build`.
 
 ## License
 
