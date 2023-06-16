@@ -154,7 +154,7 @@ body {
 }
 .react_kaltura_players_gallery_item_container.highlight
   .react_kaltura_players_gallery_item_title {
-  background-color: #ffc107;
+    border-bottom: 4px solid #ffc107;
 }
 .react_kaltura_player_container {
   border-radius: 8px;
