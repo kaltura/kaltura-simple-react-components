@@ -2,7 +2,7 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const webpack = require("webpack");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
-const CopyWebpackPlugin = require('copy-webpack-plugin');
+const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 module.exports = {
   mode: "development",
@@ -52,8 +52,8 @@ module.exports = {
     }),
     new CopyWebpackPlugin({
       patterns: [
-        { from: 'public/favicons', to: 'favicons' },
-        { from: 'public/manifest.json', to: '' }
+        { from: "public/favicons", to: "favicons" },
+        { from: "public/manifest.json", to: "" },
       ],
     }),
   ],

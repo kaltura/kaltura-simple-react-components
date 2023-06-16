@@ -1,7 +1,7 @@
 import { EmbeddedKalturaSearchView } from "@kaltura/simple-react-components";
 import React, { useEffect, useState } from "react";
 import "./style.css";
-import config from './config.json'; // adjust path to where you've created your config.json file
+import config from "./config.json"; // adjust path to where you've created your config.json file
 
 function App() {
   return (

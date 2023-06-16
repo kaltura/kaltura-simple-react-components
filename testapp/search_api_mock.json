@@ -1,89 +1,89 @@
 {
-    "entry_id": "1_zjt56dmc",
-    "model_answer": "\n\n1. Always be data-driven and use data to show the impact of marketing.\n2. Focus on productivity and effectiveness when allocating resources.\n3. Listen to your audience and use changes in behavior to gain insights.\n4. Create content for every tactic you deploy.\n5. Be authentic and don't do something just because it's the thing to do.\n6. Have a solid plan pre, during, and post for events.\n7. Involve your audience and community in your marketing initiatives.\n8. Segment your target audience and create messages that appeal to them.\n9. Optimize your targeting capabilities and adjust your messaging.\n10. Be agile and nimble, and be prepared to pivot quickly.",
-    "ref": [
-     {
+  "entry_id": "1_zjt56dmc",
+  "model_answer": "\n\n1. Always be data-driven and use data to show the impact of marketing.\n2. Focus on productivity and effectiveness when allocating resources.\n3. Listen to your audience and use changes in behavior to gain insights.\n4. Create content for every tactic you deploy.\n5. Be authentic and don't do something just because it's the thing to do.\n6. Have a solid plan pre, during, and post for events.\n7. Involve your audience and community in your marketing initiatives.\n8. Segment your target audience and create messages that appeal to them.\n9. Optimize your targeting capabilities and adjust your messaging.\n10. Be agile and nimble, and be prepared to pivot quickly.",
+  "ref": [
+    {
       "entry_id": "1_zjt56dmc",
       "score": 0.24405935406684875,
       "segment_title": "\ndata-driven",
       "sentence_from_model_answer": "1. Always be data-driven and use data to show the impact of marketing.",
       "time": 1015,
       "video_transcript_segment": "How can data help us show the impact\nmarketing is making and help ensure\nthat marketing has a seat\nat the table, so to speak?\n>> So we have this\nacronym on my team.\nIt's ABDD.\nAlways be data-driven.\nBecause when it comes to whether it's a\nlooming recession or any other challenges\nthat a company may be facing, you need to\nbe able to decide, what are the things"
-     },
-     {
+    },
+    {
       "entry_id": "1_lutj6qs7",
       "score": 0.35934978723526,
       "segment_title": "\n\nproductivity",
       "sentence_from_model_answer": "2. Focus on productivity and effectiveness when allocating resources.",
       "time": 2077,
       "video_transcript_segment": "in different parts of the world\nexperiencing different things.\nThe biggest thing I think as\nmarketers we should be obsessed\nwith is productivity\nand effectiveness.\nAnd I think that most companies are going to\nput their money where they can see a return\non investment, no matter\nthe economic climate.\nAnd that should be a discipline and a muscle\nwe are all committed to, no matter what."
-     },
-     {
+    },
+    {
       "entry_id": "1_s9va87eb",
       "score": 0.28119462728500366,
       "segment_title": "\n            Insights.",
       "sentence_from_model_answer": "3. Listen to your audience and use changes in behavior to gain insights.",
       "time": 737,
       "video_transcript_segment": "and you used the changes in\nbehavior to really listen\nto your audience, there are\na lot of great marketers\nthat found new insights\njust by virtue\nof spending more time online\nand kind of listening.\nAs marketers, we always have\nto be audience-centric.\nSo the last element was making\nsure that our communications,"
-     },
-     {
+    },
+    {
       "entry_id": "1_qsq6uqey",
       "score": 0.3705056309700012,
       "segment_title": "\ncontent",
       "sentence_from_model_answer": "4. Create content for every tactic you deploy.",
       "time": 161,
       "video_transcript_segment": "and I think most of\nyou would agree,\nmarketeers today\nreally need content in\npretty much every\ntactic that they\ndeploy for it to be\nimpactful and effective.\nSo we're going to talk\na little bit about how to take\nthat and really\nmake the most out\nof that content that\nyou're creating.\nSo what's on our\nagenda today, Adi?"
-     },
-     {
+    },
+    {
       "entry_id": "1_la8iod36",
       "score": 0.3262009620666504,
       "segment_title": "\n\nauthentic",
       "sentence_from_model_answer": "5. Be authentic and don't do something just because it's the thing to do.",
       "time": 1090,
       "video_transcript_segment": "to amplify customer-focused\nmarketing initiatives?\nI guess my piece of advice --\nnot claiming to be any expert --\nbut I think\nauthenticity is the key.\nAnd doing something just because it's --\nsomebody tells you you should be\ndoing it or it's the thing to\ndo or you're checking a box,\nI think comes across and\ntypically doesn't work."
-     },
-     {
+    },
+    {
       "entry_id": "1_6ojyertl",
       "score": 0.2960803806781769,
       "segment_title": "\npre, during, and post",
       "sentence_from_model_answer": "6. Have a solid plan pre, during, and post for events.",
       "time": 452,
       "video_transcript_segment": "The other point\nthat I would make\nabout taking an\naudience-centric approach\nto your event planning is\nthink about the attendee\nat the heart of your planning.\nAnd then think about the three\nevent stages so pre-event,\nat event, and post-event.\nAnd consider how you can use\nthe data that you're capturing"
-     },
-     {
+    },
+    {
       "entry_id": "1_6oitzedq",
       "score": 0.32157254219055176,
       "segment_title": "\n\nengage",
       "sentence_from_model_answer": "7. Involve your audience and community in your marketing initiatives.",
       "time": 1104,
       "video_transcript_segment": "And the other thing, I would\ndefinitely say, and this is,\nyou know, it very much\nspeaks about marketing,\nwhen you're creating that\nevent or whatever part\nof marketing you're working on,\nis to involve your audience\nand your community.\nListen to them.\nThey will help guide you,\nand it will create a greater\nconnection, belonging,"
-     },
-     {
+    },
+    {
       "entry_id": "1_iwtyscyd",
       "score": 0.31240105628967285,
       "segment_title": "\n\nsegment",
       "sentence_from_model_answer": "8. Segment your target audience and create messages that appeal to them.",
       "time": 186,
       "video_transcript_segment": ">> I think that in marketing of\nevents, you really need to think\nabout the segmentation and the\ntarget audience and make sure\nthat you're not trying\nto create a message\nthat will appeal to everybody.\nBecause when you try to\ncreate a message and an event\nthat will appeal to everybody,\nyou're actually going\nto appeal to nobody."
-     },
-     {
+    },
+    {
       "entry_id": "1_s9va87eb",
       "score": 0.35415592789649963,
       "segment_title": "\n\noptimize",
       "sentence_from_model_answer": "9. Optimize your targeting capabilities and adjust your messaging.",
       "time": 737,
       "video_transcript_segment": "and you used the changes in\nbehavior to really listen\nto your audience, there are\na lot of great marketers\nthat found new insights\njust by virtue\nof spending more time online\nand kind of listening.\nAs marketers, we always have\nto be audience-centric.\nSo the last element was making\nsure that our communications,"
-     },
-     {
+    },
+    {
       "entry_id": "1_s9va87eb",
       "score": 0.31684020161628723,
       "segment_title": "\n\nagile",
       "sentence_from_model_answer": "10. Be agile and nimble, and be prepared to pivot quickly.",
       "time": 607,
       "video_transcript_segment": "So a couple of takeaways were,\nand I think marketers tend\nto know this very well, is\nthat nothing stays the same.\nAnd so the idea of being agile\nand the idea of being nimble\nand flexible, being able\nto pivot was really\nfront and center.\nThere were so many\nstrategies that had\nto be adapted very quickly\nand to keep that mindset"
-     }
-    ],
-    "score": 0.27282455563545227,
-    "time": 1015,
-    "title": "\n1. Always use data.\n2. Focus on productivity.\n3. Listen to your audience.\n4. Create content.\n5. Be authentic.\n6. Plan pre, during, and post for events.\n7. Involve your audience.\n8. Segment your target audience.\n9. Optimize your targeting.\n10. Be agile."
-   }
+    }
+  ],
+  "score": 0.27282455563545227,
+  "time": 1015,
+  "title": "\n1. Always use data.\n2. Focus on productivity.\n3. Listen to your audience.\n4. Create content.\n5. Be authentic.\n6. Plan pre, during, and post for events.\n7. Involve your audience.\n8. Segment your target audience.\n9. Optimize your targeting.\n10. Be agile."
+}

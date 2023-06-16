@@ -5,11 +5,15 @@
   font-weight: normal;
   font-style: normal;
 }
+body {
+  background-color: #f8f8f8;
+}
 .App,
 .react_kaltura_embedded_search {
   max-width: 1200px;
-  margin: auto; /* to center the carousel */
+  margin: auto;
   font-family: "Centra No1 Book", Arial, sans-serif;
+  background-color: #f8f8f8;
 }
 .react_kaltura_embedded_search_prompt_container {
   border-style: none;
@@ -28,9 +32,10 @@
 .react_kaltura_embedded_search_prompt_input {
   border: none;
   border-bottom: 2px solid rgb(102, 102, 102);
-  font-size: 1.6em;
+  font-size: 1.2em; 
   padding: 10px;
   color: #333;
+  background-color: #fff;
   width: 100%;
 }
 .react_kaltura_embedded_search_prompt_input:focus {
@@ -71,12 +76,8 @@
   align-content: stretch;
   justify-content: flex-start;
   align-items: flex-start;
-}
-.react_kaltura_search_results_container,
-.react_kaltura_search_results_msg {
-  position: relative;
-  font-size: 1.4em;
-  color: #282828;
+  padding: 1rem;
+  border: 1px solid #ccc;
 }
 .react_kaltura_search_results_msg_loading {
   /* loading search results... */
@@ -88,71 +89,40 @@
   /* the hint when the component loaded - asking te user to ask a question */
 }
 .react_kaltura_search_results_sentences_container {
-  display: flex;
-  flex-direction: column;
+  color: #333;
+  background-color: #f8f8f8;
+  padding: 1rem;
+  border-radius: 5px;
+  margin: 1rem 0;
+  line-height: 1.5;
+  font-size: 1.1rem;
+  line-height: 1.5;
 }
 .react_kaltura_search_results_sentence {
-  display: contents;
-  padding: 0;
-  margin: 0;
+  
 }
 .react_kaltura_search_results_sentence_highlighted {
-  border-radius: 5px;
-  color: #006cfa5f;
- }
-.react_kaltura_search_results_sentence_expanded_content {
-  visibility: collapse;
-  position: absolute;
-  opacity: 0;
-  max-height: 0;
-  max-width: 500px;
-  border-radius: 5px;
-  transition: visibility 850ms ease-out, opacity 850ms ease-out,
-    max-height 1s linear;
-  color: #282828;
-  background-color: #7ccffb;
-  margin-left: 15px;
-  font-style: italic;
-  padding: 15px;
+  font-weight: bold;
+  background-color: #fff;
+  border-left: 4px solid #ffc107;
 }
-.react_kaltura_search_results_sentence_highlighted
-  .react_kaltura_search_results_sentence_expanded_content {
-  visibility: visible;
-  opacity: 1;
-  max-height: 300px;
-  max-width: 500px;
-  transition: visibility 200ms ease-out, opacity 250ms ease-out,
-    max-height 50ms linear;
-} 
-.react_kaltura_search_results_sentence_expanded_content::before {
-  content: open-quote;
-  position: relative;
-  left: 0.1em;
-  top: 0.3em;
-  font-size: 2.2em;
-  line-height: 0.2em;
-  font-family: Georgia, serif;
-  color: #00a078;
-  font-weight: 900;
-  padding-left: 0.1em;
-  transform: rotate(340deg);
-  font-style: normal;
-  display: inline-block;
+.react_kaltura_search_results_footnotes_container {
+  padding: 1rem;
+  font-size: 0.8rem;
+  color: #666;
+  border-top: 1px solid #ccc;
 }
-.react_kaltura_search_results_sentence_expanded_content::after {
-  content: close-quote;
-  position: relative;
-  left: -0.1em;
-  top: 0.25em;
-  font-size: 2.2em;
-  line-height: 0.2em;
-  font-family: Georgia, serif;
-  color: #00a078;
-  font-weight: 900;
-  padding-left: 0.1em;
-  transform: rotate(10deg);
-  font-style: normal;
-  display: inline-block;
+.react_kaltura_search_results_footnotes_container {
+  padding: 1rem;
+  font-size: 0.8rem;
+  color: #666;
+}
+.react_kaltura_search_results_footnote_highlighted {
+  font-weight: bold;
+  color: #333;
+  background-color: #f8f8f8;
+  padding: 0.5rem;
+  border-left: 4px solid #ffc107;
 }
 .react_kaltura_players_gallery {
   display: flex;
@@ -164,7 +134,7 @@
   align-content: center;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 40px;
+  margin-bottom: 5px;
 }
 .react_kaltura_players_gallery_item_container {
   display: flex;
@@ -184,7 +154,7 @@
 }
 .react_kaltura_players_gallery_item_container.highlight
   .react_kaltura_players_gallery_item_title {
-  background-color: #41beff;
+  background-color: #ffc107;
 }
 .react_kaltura_player_container {
   border-radius: 8px;
