@@ -1,6 +1,6 @@
 {
-  "short_name": "Kaltura Demo for AI Search",
-  "name": "Demo App of the Kaltura Embedded AI Search Component",
+  "short_name": "EmbeddedAiSearchComponent",
+  "name": "The Kaltura Embedded AI Search Component",
   "icons": [
     {
       "src": "favicons/favicon.ico",
