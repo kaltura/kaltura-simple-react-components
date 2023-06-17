@@ -135,9 +135,11 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 5px;
+  position: relative;
 }
 .react_kaltura_players_gallery_item_container {
   display: flex;
+  position: relative;
   flex-direction: column;
   width: 100%;
   max-width: 170px;
